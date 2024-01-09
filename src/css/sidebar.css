@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/galano-grotesque-alt');
+
+ul {
+    padding: 0 !important;
+}
+
+ul li {
+    list-style: none;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.sidebar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px 10px;
+    gap: 16px;
+    width: 224px;
+    height: 912px;
+    background-color: #1E2640;
+}
+
+.sidebar-top {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 208px;
+    height: 780px;
+}
+
+.sidebar-header {
+    display: flex;
+    gap: 16px;
+    width: 192px;
+    height: 42px;
+    align-items: center;
+}
+
+.sidebar-img img {
+    border-radius: 4px;
+}
+
+.sidebar-title {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 108px;
+    height: 42px;
+}
+
+.sidebar-title p {
+    width: 108px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+
+.sidebar-title a {
+    width: 108px;
+    height: 16px;
+    text-decoration-line: underline;
+    font-family: 'Galano Grotesque', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.sidebar-dropdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar-dropdown button {
+    color: #fff;
+    background-color: #1E2640;
+    border: none;
+}
+
+.sidebar-anchors {
+    width: 208px;
+    height: 714px;
+}
+
+.sidebar-anchors ul {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.sidebar-anchors li a {
+    text-decoration: none;
+    width: 208px;
+    height: 36px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    gap: 12px;
+    justify-content: flex-start;
+    display: flex;
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sidebar-anchors svg{
+    width: 16.96px;
+height: 17.5px;
+}
+
+
+.sidebar-bottom {
+    text-align: center;
+    background-color: #353C53;
+    border-radius: 4px;
+    width: 192px;
+    height: 54px;
+    padding: 6px 12px;
+}
+
+.sidebar-bottom div:first-child {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.sidebar-bottom div span:first-child {
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    padding: 6px;
+    color: #fff;
+}
+
+.sidebar-bottom div svg{
+    width: 26.65px;
+height: 32.6px;
+}
+.sidebar-bottom div span:last-child {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+
+.sidebar-bottom p {
+    font-family: 'Inter';
+    color: #FFFFFF;
+}
+
+.sidebar-bottom p:first-child {
+    size: 13px;
+    font-weight: 400px;
+    line-height: 16px;
+}
+
+.sidebar-bottom p:last-child {
+    size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
