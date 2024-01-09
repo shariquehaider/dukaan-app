@@ -6,7 +6,7 @@ import { GoDotFill } from "react-icons/go";
 import useHooks from "./useHooks";
 
 export default function Transactions() {
-    const { refunds } = useHooks();
+    const { refunds, refundsNo, transactionNo } = useHooks();
 
     return (
         <>
@@ -14,8 +14,8 @@ export default function Transactions() {
                 <div className="transaction-header">
                     <p>Transactions | This Month</p>
                     <div className="transaction-header-tabs">
-                        <button>Payouts</button>
-                        <button>Refunds</button>
+                        <button>Payouts ({transactionNo})</button>
+                        <button>Refunds ({refundsNo})</button>
                     </div>
                 </div>
                 <div className="transaction-details">
